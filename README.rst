@@ -22,3 +22,10 @@ The initial version of GPPL implements two simple APIs
   the ver 0.0.1 is just a file)
 
   [plot] The API plots the data inputted via load API
+
+Limitations
+-----------
+
+This version 0.0.1 of the GPPL has several limitations described below
+
+[TBW]
