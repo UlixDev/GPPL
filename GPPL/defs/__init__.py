@@ -1,8 +1,4 @@
-#!/usr/bin/env python
 # -*- coding: utf8 -*-
-""" 
-    @date: 12/24/18
 
-"""
+import .consts as constants
 
-from typing import Any, Union, Optional
