@@ -18,10 +18,12 @@ API (V 0.0.1)
 
 The initial version of GPPL implements two simple APIs
 
-  [load] The API allows to select the input data selecting an input strean (in
+  [load] 
+  The API allows to select the input data selecting an input strean (in
   the ver 0.0.1 is just a file)
 
-  [plot] The API plots the data inputted via load API
+  [plot] 
+  The API plots the data inputted via load API
 
 Limitations
 -----------
