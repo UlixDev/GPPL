@@ -5,7 +5,7 @@
 
 """
 
-from setuptools import setup
+from setuptools import setup, find_packages
 
 required_packages = ['matplotlib', 'tk']
 
@@ -18,10 +18,14 @@ setup(name='GPPL',
       author_email='ulisse.rubizzo@gmail.com',
       mantainer='ulix',
 
-      platforms=['linux', 'BSD'],
-
+      packages=find_packages(),
       requires=required_packages,
       
-      licence='GPLL',
+      platforms=['linux', 'BSD'],
+      classifiers=["Programming Language :: Python :: 3",
+                   "License :: OSI Approved :: MIT License",
+                   "Operating System :: OS Independent",
+      ],
+      license='GPLv3',
       
 )
